@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+body {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.logo {
+	height: 40px;
+	width: 40px;
+	float: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+li {
+  color: white;
+}
+
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+  padding: 10px 0;
+  background-color: rgba(0,0,0,.5);
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background: none;
+  text-align: center;
+}
+
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align: center;
+  color: white;
+}
+
+.join {
+  background-color: rgba(0,255,188,0.5);
+  border-color: rgba(0,255,188,0.5);
+  color: white;
+  padding: 10px 40px;
+}
+
+.img_small {
+	height: 160px;
+	width: 160px;
+}
+
+.footer {
+	padding:30px;
+	margin: 0 auto;
+	width: 100%;
+}
